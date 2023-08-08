@@ -1,1 +1,0 @@
-Creating a sample file using python code
