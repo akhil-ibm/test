@@ -1,0 +1,28 @@
+apis:
+  sample-test1.0.0:
+    name: sample-test:1.0.0
+gateways:
+- datapower-api-gateway
+info:
+  name: sample-product
+  title: sample product
+  version: 1.0.0
+plans:
+  default-plan:
+    description: Default Plan
+    rate-limits:
+      default:
+        value: unlimited
+    title: Default Plan
+product: 1.0.0
+visibility:
+  subscribe:
+    enabled: true
+    orgs: []
+    tags: []
+    type: authenticated
+  view:
+    enabled: true
+    orgs: []
+    tags: []
+    type: authenticated
