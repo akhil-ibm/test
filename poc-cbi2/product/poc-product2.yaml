@@ -1,0 +1,28 @@
+apis:
+  poc-cbi21.0.0:
+    name: poc-cbi2:1.0.0
+gateways:
+- datapower-api-gateway
+info:
+  name: poc-product2
+  title: poc product
+  version: 1.0.0
+plans:
+  default-plan:
+    description: Default Plan
+    rate-limits:
+      default:
+        value: unlimited
+    title: Default Plan
+product: 1.0.0
+visibility:
+  subscribe:
+    enabled: true
+    orgs: []
+    tags: []
+    type: authenticated
+  view:
+    enabled: true
+    orgs: []
+    tags: []
+    type: authenticated
